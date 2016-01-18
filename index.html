@@ -118,6 +118,18 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="firstname" class="col-sm-3 control-label">Section &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</label>
+                    <div class="col-sm-8">
+                      <label class="btn btn-success active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-Smoking
+                      </label>
+                      <label class="btn btn-danger">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                      </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
                     <label class="col-sm-2 control-label">Date and &nbsp; &nbsp; &nbsp;Time</label>
                       <div class="col-sm-4">
                           <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
@@ -128,28 +140,13 @@
                         <input type="time" class="form-control" placeholder="Time">
                       </div>
                     </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">Section</label>
-                      <div class="col-sm-4">
-                          <i class="glyphicon glyphicon-calendar form-control-feedback"></i>
-                          <input type="date" class="form-control" placeholder="Date">
-                      </div>
-                      <div class="col-sm-4">
-                        <i class="glyphicon glyphicon-time form-control-feedback"></i>
-                        <input type="time" class="form-control" placeholder="Time">
-                      </div>
-                    </div>
-                </div>
 
                   <div class="form-group">
-                      <div class="col-sm-offset-2 col-sm-10">
+                      <div class="col-sm-offset-5 col-sm-7">
                           <button type="submit" class="btn btn-primary">Reserve</button>
                           <button type="cancel" class="btn btn-warning" data-dismiss="modal">Cancel</button>
                       </div>
-                  </div>
-                  <br /> <br />
+                  </div> <br /><br />
                   <div class="alert alert-warning alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <strong>Warning!</strong> Please <a href="#phone">call</a> us to reserve for more than six guests.
